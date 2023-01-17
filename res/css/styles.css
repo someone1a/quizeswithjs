@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    animation: tx-c 5s infinite alternate linear;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    animation: tx-c 5s infinite alternate linear;
+}
+.right{
+    text-align: right;
+}
+.h1{
+    font-size: 4rem;
+    color: #7A9AF6;
+}
+.center{
+    text-align: center;
+}
+.child{
+    width:400px;
+    margin:0px auto;
+    border: solid #85BAF6 1px;
+}
+.links a{
+    animation: bg 5s infinite linear alternate;
+    text-decoration: none;
+    margin-top: 4ch;
+    font-size: 1.5rem;
+}
+.links a:hover{
+    animation: bg-a 5s infinite linear alternate;
+}
+/*animacion cambio color*/
+@keyframes tx-c {
+    0%{
+        color: #9BF8F4;
+    }
+    25%{
+        color: #90D9F5;
+    }
+    50%{
+        color: #85BAF6;
+    }
+    75%{
+        color: #7A9AF6;
+    }
+    100%{
+        color: #6F7BF7;
+    }
+}
+@keyframes bg {
+    0%{
+        background-color: #9BF8F4;
+        margin-top: 1rem;
+    }
+    25%{
+        background-color: #90D9F5;
+        margin-top: 1rem;
+    }
+    50%{
+        background-color: #85BAF6;
+        margin-top: 1rem;
+    }
+    75%{
+        background-color: #7A9AF6;
+        margin-top: 1rem;
+    }
+    100%{
+        background-color: #6F7BF7;
+        margin-top: 1rem;
+    }
+}
+/*links hover*/
+@keyframes bg-a {
+    0%{
+        background-color: #ADFDA2;
+    }
+    25%{
+        background-color: #86F3B6;
+    }
+    50%{
+        background-color: #5FE8CB;
+    }
+    75%{
+        background-color: #38DEDF;
+    }
+    100%{
+        background-color: #11D3F3;
+    }
+}
